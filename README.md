@@ -35,4 +35,6 @@ while not event.getKeys():
 	-	font-size: 6mm;
 
 ## Installation
-pip3 install git+https://github.com/wilberth/HyperTextStim.git#egg=HyperTextStim
+```
+pip3 install git+https://github.com/wilberth/hypertextstim.git
+```
