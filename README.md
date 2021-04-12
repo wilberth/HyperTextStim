@@ -6,7 +6,7 @@ works much the same as the <i>TextStim</i> stimulus. _HyperTextStim_ uses pyppet
 ```
 #!/usr/bin/env python3
 from psychopy import visual
-import hypertextstim
+from hypertextstim import HyperTextStim
 
 win = visual.Window([800, 600], units="pix", monitor='testMonitor')
 stim = HyperTextStim(win, text="Hello <b>bold</b> world.", size=[700, 560])
@@ -15,6 +15,8 @@ while not event.getKeys():
   stim.draw()
   win.flip()
 ```
+
+![HyperTextStim](hypertextstim.png)
 
 ## Arguments
 -	__text__
