@@ -5,7 +5,7 @@ works much the same as the <i>TextStim</i> stimulus. _HyperTextStim_ uses pyppet
 ## Example use
 ```
 #!/usr/bin/env python3
-from psychopy import visual
+from psychopy import visual, event
 from hypertextstim import HyperTextStim
 
 win = visual.Window([800, 600], units="pix", monitor='testMonitor')
