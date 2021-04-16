@@ -29,7 +29,7 @@ while not event.getKeys():
 	_optional_: Defaults to gray. Background color in css style: "green", "rgb(100,200,200)"
 
 - __css__
-	_optional_: Defaults to mucht the same as TextStim. suggestions (can be concatenated):
+	_optional_: Defaults to much the same as TextStim. suggestions (can be concatenated):
 	- color: green;
 	- text-align: left;
 	-	text-align: justify;
