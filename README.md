@@ -1,6 +1,6 @@
 # HyperTextStim
 The _HyperTextStim_ stimulus allows you to use ʜᴛᴍʟ markup in a Psychopy-like stimulus that otherwise
-works much the same as the <i>TextStim</i> stimulus. _HyperTextStim_ uses pyppeteer to generate the stimulus.
+works much the same as the <i>TextStim</i> stimulus. _HyperTextStim_ uses [pyppeteer](https://pypi.org/project/pyppeteer/) to generate the stimulus.
 
 ## Example use
 ```
@@ -20,7 +20,7 @@ while not event.getKeys():
 
 ## Arguments
 -	__text__
-	_mandatory_: The html annotated text: Hello &lt;b&gt;bold&lt;/b&gt; world.</dd>
+	_mandatory_: The html annotated text: "Hello &lt;b&gt;bold&lt;/b&gt; world".</dd>
 
 - __size__
 	_optional_: Defaults to window size. Always in pixels: [800, 600]
